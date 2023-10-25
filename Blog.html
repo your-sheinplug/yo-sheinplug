@@ -48,24 +48,18 @@
             font-size: 18px;
         }
 
-        .galary {
+        .gallery {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-between;
+            padding: 20px;
         }
 
-        .galary img {
-            margin: 10px;
-            width: 300px;
-            height: 200px;
+        .gallery img {
+            width: calc(50% - 10px); /* 50% width with spacing */
+            margin-bottom: 20px;
         }
 
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
     </style>
 </head>
 <body>
@@ -84,7 +78,7 @@
     </section>
     <section>
         <h1>FOR PRICES CONTACT US</h1>
-        <div class="galary">
+        <div class="gallery">
             <img src="p1.jpg" alt="product1">
             <img src="p3.jpg" alt="product2">
             <img src="p4.jpg" alt="product3">
@@ -128,7 +122,7 @@
         </div>
     </section>
     <footer>
-        <p>&copy; 2023 yoursheinPlug</p>
+        <p>copyright &copy; 2023 yoursheinPlug</p>
     </footer>
 </body>
 </html>
